@@ -1,0 +1,151 @@
+body {
+    background-color: #6c757d;
+
+    .topnav-bar {
+        background-color: #64dfdf !important;
+
+        .dropdown-menu {
+            background-color: #64dfdf;
+
+            .carousel {
+                margin-top: 0px;
+                padding: 0;
+            }
+        }
+    }
+}
+
+.mid-items {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 25px;
+    padding: 0;
+    margin-top: 50px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.texto-productos {
+    padding: 10px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.boton-h3 {
+    box-sizing: border-box;
+    background-color: #64dfdf;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    box-shadow: 2px 2px black;
+}
+
+.card {
+    box-shadow: 2px 2px black;
+    background-color: #64dfdf;
+    padding: 10px;
+}
+
+.footer {
+    margin-top: 100px;
+}
+
+.cards-productos {
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 10px;
+
+    .card {
+        margin: 12px;
+    }
+}
+
+.texto-h1 {
+    text-align: center;
+    margin: 25px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.contact_form {
+    width: 40%;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: grey;
+    padding-left: 30px;
+    box-shadow: 3px 3px 4px black;
+
+    
+
+    input {
+        background-color: #fbfbfb;
+        width: 95%;
+        height: 40px;
+        border-radius: 5px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: aqua;
+        margin-top: 10px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    textarea {
+        background-color: #fbfbfb;
+        width: 95%;
+        height: 150px;
+        border-radius: 5px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #64dfdf;
+        margin-top: 10px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+        padding-top: 15px;
+    }
+
+    .botoncito {
+        background-color: #64dfdf;
+        border-radius: 5px;
+        border: none;
+    }
+
+    span {
+        color: aqua;
+    }
+    
+}
+
+.envios {
+    text-align: center;
+    text-shadow: 3px 3px 4px black;
+    color: white;
+    margin-top: 150px;
+}
+
+.quejatecontumama {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 50px;
+    margin-left: 25%;
+    padding: 25px;
+    box-sizing: border-box;
+    width: 50%;
+    height: 30%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px black;
+}
